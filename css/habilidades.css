@@ -1,0 +1,114 @@
+
+#habilidades {
+    width: 100%;
+    max-width: 1250px;
+    background: #fdf6e3;
+}
+
+#habilidades .container-habilidades {
+  padding: 20px 30px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 40px;
+}
+
+#habilidades .container-habilidades h2 {
+    font-size: 2rem;
+    color: #4a403a;
+    margin: 0 0 84px;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper .carrusel-contenedor {
+  display: flex;
+  width: 100%;
+  margin-right: 10px;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper .carrusel-contenedor .carrusel-item {
+  min-width: 100px;
+  width: 100%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper .carrusel-contenedor .carrusel-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper .carrusel-contenedor .carrusel-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #4a403a; 
+}
+
+#habilidades .container-habilidades .carrusel-wrapper #prevBtn,
+#habilidades .container-habilidades .carrusel-wrapper #nextBtn {
+  position: absolute;
+  top: 46%;
+  transform: translateY(-50%);
+  background-color: #9c836b;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper #prevBtn {
+  left: 15px;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper #nextBtn {
+  right: 15px;
+}
+
+#habilidades .container-habilidades .carrusel-wrapper #prevBtn:hover,
+#habilidades .container-habilidades .carrusel-wrapper #nextBtn:hover {
+  background-color: #7d6554;
+}
+
+#habilidades .container-habilidades h3 {
+    font-size: 1.5rem;
+    padding: 50px 0;
+}
+
+#habilidades .container-habilidades table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #fdf6e3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+#habilidades .container-habilidades table tr th,
+#habilidades .container-habilidades table tr td {
+  border: 1px solid #9c836b;
+  padding: 12px;
+  text-align: center;
+}
+#habilidades .container-habilidades table tr th {
+  background-color: #9c836b;
+  color: white;
+}
+#habilidades .container-habilidades table tr:nth-child(even) {
+  background-color: #f8f4e1;
+}

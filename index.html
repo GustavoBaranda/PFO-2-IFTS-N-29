@@ -21,12 +21,13 @@
           <li><a href="#sobre-mi">Sobre Mí</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#peliculas">Peliculas</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main class="container">
       <section id="sobre-mi">
         <div class="card">
           <h2>Sobre Mí</h2>
@@ -130,24 +131,77 @@
           <!-- Puedes añadir más tarjetas según sea necesario -->
         </div>
       </section>
-      <section id="habilidades" class="carrusel">
-        <div class="carrusel-wrapper">
+
+      <section id="habilidades">
+        <div class="container-habilidades">
           <h2>Habilidades</h2>
-          <div class="carrusel-contenedor">
-            <!-- Los elementos del carrusel se insertarán aquí dinámicamente -->
+          <div class="carrusel-wrapper">
+            <div class="carrusel-contenedor">
+              <!-- Los elementos del carrusel se insertan dinamicamente -->
+            </div>
+            <button id="prevBtn">&#10094;</button>
+            <button id="nextBtn">&#10095;</button>
           </div>
-          <button id="prevBtn">&#10094;</button>
-          <button id="nextBtn">&#10095;</button>
+          <h3 class="detalles-habilidades">Habilidades detalladas</h3>
+          <table>
+            <tr>
+              <th>Dominio</th>
+              <th>Conocimientos</th>
+              <th>Aprender</th>
+              <th>Hobbies</th>
+            </tr>
+            <tr>
+              <td>
+                HTML - CSS - Sass - Tailwind - JavaScript - TypeScript - ReactJS
+                - NextJS
+              </td>
+              <td>Desarrollo Web Frontend</td>
+              <td>React Native</td>
+              <td>Videojuegos - Ilustración</td>
+            </tr>
+            <tr>
+              <td>NodeJS - Python - Django - PHP - CSharp</td>
+              <td>Desarrollo Backend</td>
+              <td>Go - Rust</td>
+              <td>Lectura - Escritura</td>
+            </tr>
+            <tr>
+              <td>Firebase - MySQL</td>
+              <td>Bases de Datos</td>
+              <td>GraphQL</td>
+              <td>Senderismo</td>
+            </tr>
+          </table>
         </div>
       </section>
 
+      <section id="peliculas">
+        <h2>Películas Favoritas</h2>
+        <div class="contenedor-peliculas">
+          <!-- Las tarjetas de películas se insertarán aquí -->
+        </div>
+      </section>
 
-
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <footer>
       <p>&copy; 2024 Gustavo - Todos los derechos reservados.</p>
     </footer>
     <script src="/js/app.js"></script>
+    <script src="/js/peliculas.js"></script>
   </body>
 </html>

@@ -1,0 +1,83 @@
+#proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 1250px;
+  margin-bottom: 4rem;
+}
+
+#proyectos h2 {
+  font-size: 2rem;
+  color: #4a403a;
+  margin: 0 0 84px 0;
+}
+
+#proyectos .contenedor-proyectos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 10px;
+  width: 100%;
+  max-width: 1250px;
+}
+
+#proyectos .contenedor-proyectos .tarjeta {
+  background: #fdf6e3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  transition: transform 0.3s;
+  padding: 20px 20px 10px 20px;
+}
+
+#proyectos .contenedor-proyectos .tarjeta:hover {
+  transform: translateY(-10px);
+}
+
+#proyectos .contenedor-proyectos .tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#proyectos .contenedor-proyectos .contenido-tarjeta {
+  padding: 15px;
+}
+
+#proyectos .contenedor-proyectos .contenido-tarjeta h3 {
+  margin-top: 0;
+  color: #4a403a;
+}
+
+#proyectos .contenedor-proyectos .contenido-tarjeta p {
+  color: #6d5c4d;
+  font-size: 0.9rem;
+  text-align: justify;
+  height: 240px;
+}
+
+#proyectos .contenedor-proyectos .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #9c836b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#proyectos .contenedor-proyectos .btn:hover {
+  background-color: #7d6554;
+}
+
+@media screen and (max-width: 1290px) {
+  #proyectos .contenedor-proyectos {
+    gap: 20px 50px;
+    flex-wrap: wrap;
+  }
+}

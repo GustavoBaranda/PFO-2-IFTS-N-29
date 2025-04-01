@@ -1,0 +1,66 @@
+
+#peliculas h2 {
+  font-size: 2rem;
+  color: #4a403a;
+  padding: 40px 0;
+}
+
+#peliculas .contenedor-peliculas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1250px;
+}
+
+#peliculas .contenedor-peliculas .tarjeta {
+  background: #fdf6e3; /* Color inspirado en Studio Ghibli */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  transition: transform 0.3s;
+  padding: 20px 20px 10px 20px;
+}
+
+#peliculas .contenedor-peliculas .tarjeta:hover {
+  transform: translateY(-10px);
+}
+
+#peliculas .contenedor-peliculas .tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#peliculas .contenedor-peliculas .tarjeta .contenido-tarjeta {
+  padding: 15px;
+}
+
+#peliculas .contenedor-peliculas .tarjeta .contenido-tarjeta h3 {
+  margin-top: 0;
+  color: #4a403a; 
+}
+
+#peliculas .contenedor-proyectos .contenido-tarjeta p {
+  color: #6d5c4d; /* Color inspirado en Studio Ghibli */
+  font-size: 0.9rem;
+  text-align: justify;
+  height: 100%;
+}
+
+#peliculas .contenedor-peliculas .tarjeta .contenido-tarjeta  .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #9c836b; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#peliculas .contenedor-peliculas .tarjeta .contenido-tarjeta .btn:hover {
+  background-color: #7d6554; 
+}
