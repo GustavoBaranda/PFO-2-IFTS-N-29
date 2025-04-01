@@ -4,6 +4,7 @@
 @import "habilidades.css";
 @import "peliculas.css";
 @import "contacto.css";
+@import "scroll.css";
 
 body {
   font-family: "Poppins", sans-serif;
@@ -22,6 +23,7 @@ body {
   width: 100%;
   max-width: 1250px;
 }
+
 
 footer {
   text-align: center;
