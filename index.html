@@ -1,81 +1,153 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="assets/logo.png" alt="Logo de Mi Portafolio">
-            </div>
-            <ul>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="sobre-mi">
-          <div class="card">
-            <h2>Sobre Mí</h2>
-            <div class="card-content">
-                <img src="assets/perfil.png" alt="Mi foto de perfil" class="profile-img">
-                <div class="text-content">
-                  <p>Hola, soy Gustavo, un apasionado desarrollador FrontEnd con más de 5 años de experiencia en la creación de interfaces de usuario modernas, atractivas y funcionales. A lo largo de mi carrera he trabajado con una variedad de tecnologías, desde HTML y CSS hasta JavaScript y frameworks como React. Mi enfoque siempre está en la experiencia del usuario (UX), asegurando que cada proyecto sea intuitivo y fácil de usar.</p>
-                  <p>Mi pasión por la programación comenzó desde joven, y con el tiempo me he especializado en crear soluciones innovadoras que mejoren la interacción digital. Me encanta aprender nuevas herramientas y tecnologías, y disfruto enfrentando desafíos técnicos para crear aplicaciones web de alto rendimiento.</p>
-                  <p>Además de mi experiencia técnica, tengo un gran interés por el diseño visual, lo que me permite combinar desarrollo y estética para crear productos digitales completos. Trabajo de cerca con diseñadores y otros desarrolladores para asegurar que todos los aspectos del proyecto estén alineados y contribuyan a una experiencia de usuario excepcional.</p>
-                  <p>Actualmente, me encuentro buscando nuevos proyectos y oportunidades de colaboración que me permitan seguir creciendo como profesional y aportar mis habilidades a equipos innovadores. Si estás interesado en trabajar juntos o quieres saber más sobre mis proyectos anteriores, ¡no dudes en contactarme!</p>
-                </div>
-            </div>
+      <nav>
+        <div class="logo">
+          <img src="assets/logo.png" alt="Logo de Mi Portafolio" />
         </div>
-        
-        </section>
-        
-        <section id="proyectos">
-          <h2>Proyectos Destacados</h2>
-          <div class="contenedor-proyectos">
-              <div class="tarjeta">
-                  <img src="/assets/lasVerde.png" alt="Las Verdde">
-                  <div class="contenido-tarjeta">
-                      <h3>Las Verde</h3>
-                      <p>"Las Verde" es una aplicación web informativa sobre la fabricación de jugos orgánicos. Presenta la historia, valores, procesos productivos y catálogo de productos del emprendimiento, con conexión a Firebase para la gestión de datos. Utiliza ReactJS, Sass para los estilos y React Router Dom para la navegación.</p>
-                      <a href="https://www.lasverde.com.ar/" class="btn">Ver más</a>
-                  </div>
-              </div>
-              <div class="tarjeta">
-                  <img src="/assets/DescubriendoJardiMaternal.png" alt="Descubriendo Jardin Maternal">
-                  <div class="contenido-tarjeta">
-                      <h3>Descubriendo Jardin Maternal</h3>
-                      <p>Este sitio web es una plataforma informativa sobre un jardín maternal, donde se presentan su misión, valores, metodología de enseñanza y formas de contacto. Desarrollado con HTML, CSS y JavaScript Vanilla, incorpora PHP para la gestión de formularios de contacto.</p>
-                      <a href="https://maternaldescubrimiento.vercel.app/" class="btn">Ver más</a>
-                  </div>
-              </div>
-              <div class="tarjeta">
-                  <img src="/assets/chetifabene.png" alt="Chetifabene">
-                  <div class="contenido-tarjeta">
-                      <h3>Chetifabene</h3>
-                      <p>CHETIFABENE es una red social diseñada para compartir, guardar y publicar recetas de cocina, permitiendo seguir a otros usuarios y puntuar sus comidas favoritas. Desarrollada con React, Node.js y PostgreSQL, utiliza Cloudinary para almacenamiento de imágenes y Nodemailer para notificaciones. La aplicación ofrece una interfaz intuitiva y está desplegada en Vercel. Fue creada como solución laboral en No Country.</p>
-                      <a href="https://chetifabene.vercel.app/" class="btn">Ver más</a>
-                  </div>
-              </div>
-              <!-- Puedes añadir más tarjetas según sea necesario -->
+        <ul>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre-mi">
+        <div class="card">
+          <h2>Sobre Mí</h2>
+          <div class="card-content">
+            <img
+              src="assets/perfil.png"
+              alt="Mi foto de perfil"
+              class="profile-img"
+            />
+            <div class="text-content">
+              <p>
+                Hola, soy Gustavo, un apasionado desarrollador FrontEnd con más
+                de 5 años de experiencia en la creación de interfaces de usuario
+                modernas, atractivas y funcionales. A lo largo de mi carrera he
+                trabajado con una variedad de tecnologías, desde HTML y CSS
+                hasta JavaScript y frameworks como React. Mi enfoque siempre
+                está en la experiencia del usuario (UX), asegurando que cada
+                proyecto sea intuitivo y fácil de usar.
+              </p>
+              <p>
+                Mi pasión por la programación comenzó desde joven, y con el
+                tiempo me he especializado en crear soluciones innovadoras que
+                mejoren la interacción digital. Me encanta aprender nuevas
+                herramientas y tecnologías, y disfruto enfrentando desafíos
+                técnicos para crear aplicaciones web de alto rendimiento.
+              </p>
+              <p>
+                Además de mi experiencia técnica, tengo un gran interés por el
+                diseño visual, lo que me permite combinar desarrollo y estética
+                para crear productos digitales completos. Trabajo de cerca con
+                diseñadores y otros desarrolladores para asegurar que todos los
+                aspectos del proyecto estén alineados y contribuyan a una
+                experiencia de usuario excepcional.
+              </p>
+              <p>
+                Actualmente, me encuentro buscando nuevos proyectos y
+                oportunidades de colaboración que me permitan seguir creciendo
+                como profesional y aportar mis habilidades a equipos
+                innovadores. Si estás interesado en trabajar juntos o quieres
+                saber más sobre mis proyectos anteriores, ¡no dudes en
+                contactarme!
+              </p>
+            </div>
           </div>
+        </div>
       </section>
-      
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="contenedor-proyectos">
+          <div class="tarjeta">
+            <img src="/assets/lasVerde.png" alt="Las Verdde" />
+            <div class="contenido-tarjeta">
+              <h3>Las Verde</h3>
+              <p>
+                "Las Verde" es una aplicación web informativa sobre la
+                fabricación de jugos orgánicos. Presenta la historia, valores,
+                procesos productivos y catálogo de productos del emprendimiento,
+                con conexión a Firebase para la gestión de datos. Utiliza
+                ReactJS, Sass para los estilos y React Router Dom para la
+                navegación.
+              </p>
+              <a href="https://www.lasverde.com.ar/" class="btn">Ver más</a>
+            </div>
+          </div>
+          <div class="tarjeta">
+            <img
+              src="/assets/DescubriendoJardiMaternal.png"
+              alt="Descubriendo Jardin Maternal"
+            />
+            <div class="contenido-tarjeta">
+              <h3>Descubriendo Jardin Maternal</h3>
+              <p>
+                Este sitio web es una plataforma informativa sobre un jardín
+                maternal, donde se presentan su misión, valores, metodología de
+                enseñanza y formas de contacto. Desarrollado con HTML, CSS y
+                JavaScript Vanilla, incorpora PHP para la gestión de formularios
+                de contacto.
+              </p>
+              <a href="https://maternaldescubrimiento.vercel.app/" class="btn"
+                >Ver más</a
+              >
+            </div>
+          </div>
+          <div class="tarjeta">
+            <img src="/assets/chetifabene.png" alt="Chetifabene" />
+            <div class="contenido-tarjeta">
+              <h3>Chetifabene</h3>
+              <p>
+                CHETIFABENE es una red social diseñada para compartir, guardar y
+                publicar recetas de cocina, permitiendo seguir a otros usuarios
+                y puntuar sus comidas favoritas. Desarrollada con React, Node.js
+                y PostgreSQL, utiliza Cloudinary para almacenamiento de imágenes
+                y Nodemailer para notificaciones. La aplicación ofrece una
+                interfaz intuitiva y está desplegada en Vercel. Fue creada como
+                solución laboral en No Country.
+              </p>
+              <a href="https://chetifabene.vercel.app/" class="btn">Ver más</a>
+            </div>
+          </div>
+          <!-- Puedes añadir más tarjetas según sea necesario -->
+        </div>
+      </section>
+      <section id="habilidades" class="carrusel">
+        <div class="carrusel-wrapper">
+          <h2>Habilidades</h2>
+          <div class="carrusel-contenedor">
+            <!-- Los elementos del carrusel se insertarán aquí dinámicamente -->
+          </div>
+          <button id="prevBtn">&#10094;</button>
+          <button id="nextBtn">&#10095;</button>
+        </div>
+      </section>
+
+
 
     </main>
-    
+
     <footer>
-        <p>&copy; 2024 Gustavo - Todos los derechos reservados.</p>
+      <p>&copy; 2024 Gustavo - Todos los derechos reservados.</p>
     </footer>
-</body>
+    <script src="/js/app.js"></script>
+  </body>
 </html>
