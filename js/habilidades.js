@@ -8,7 +8,6 @@ export function iniciarCarrusel() {
 
         const contenedor = document.querySelector('.carrusel-contenedor');
 
-        // Duplicar el array de lenguajes para el efecto de carrusel infinito
         const lenguajesDuplicados = [...lenguajes, ...lenguajes];
 
         lenguajesDuplicados.forEach(lenguaje => {
@@ -16,7 +15,7 @@ export function iniciarCarrusel() {
             item.classList.add('carrusel-item');
 
             const imagen = document.createElement('img');
-            imagen.src = `/assets/${lenguaje}.png`;
+            imagen.src = `./assets/${lenguaje}.png`;
             imagen.alt = lenguaje;
 
             const descripcion = document.createElement('p');

@@ -4,19 +4,19 @@ export function cargarPeliculas() {
             {
                 titulo: "Volver al Futuro",
                 descripcion: "Un adolescente viaja al pasado y se encuentra con sus padres jóvenes.",
-                imagen: "assets/volver-al-futuro.png",
+                imagen: "./assets/volver-al-futuro.png",
                 enlace: "https://www.netflix.com/ar/title/60010110"
             },
             {
                 titulo: "Venom",
                 descripcion: "Un periodista se fusiona con un simbionte alienígeno.",
-                imagen: "assets/venom.png",
+                imagen: "./assets/venom.png",
                 enlace: "https://www.netflix.com/ar/title/80991034"
             },
             {
                 titulo: "The Seven Deadly Sins",
                 descripcion: "Un grupo de caballeros busca restaurar la paz en su reino.",
-                imagen: "assets/the-seven-deadly-sins.png",
+                imagen: "./assets/the-seven-deadly-sins.png",
                 enlace: "https://www.netflix.com/ar/title/80050063"
             },   
         ];
