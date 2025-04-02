@@ -1,9 +1,9 @@
 export function iniciarCarrusel() {
     document.addEventListener('DOMContentLoaded', () => {
         const lenguajes = [
-            "html", "css", "sass", "Tailwind", "javaScript", "typeScript",
+            "html", "css", "sass", "tailwind", "javascript", "typescript",
             "reactjs", "nextjs", "nodejs", "firebase", "mysql", "python",
-            "django", "php", "CSharp"
+            "django", "php", "csharp"
         ];
 
         const contenedor = document.querySelector('.carrusel-contenedor');
@@ -27,7 +27,7 @@ export function iniciarCarrusel() {
         });
 
         const items = document.querySelectorAll('.carrusel-item');
-        const itemWidth = items[0].offsetWidth + 20; // Ancho del item más el margen
+        const itemWidth = items[0].offsetWidth + 20; 
         let index = 0;
 
         function updateCarousel() {
