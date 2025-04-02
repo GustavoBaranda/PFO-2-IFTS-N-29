@@ -1,9 +1,9 @@
 export function iniciarCarrusel() {
     document.addEventListener('DOMContentLoaded', () => {
         const lenguajes = [
-            "html", "css", "sass", "tailwind", "javascript", "typescript",
+            "html", "css", "sass", "Tailwind", "javaScript", "typeScript",
             "reactjs", "nextjs", "nodejs", "firebase", "mysql", "python",
-            "django", "php", "csharp"
+            "django", "php", "CSharp"
         ];
 
         const contenedor = document.querySelector('.carrusel-contenedor');
