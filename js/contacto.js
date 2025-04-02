@@ -7,11 +7,10 @@ export function handleContactForm() {
         const email = document.getElementById('email').value.trim();
         const telefono = document.getElementById('telefono').value.trim();
 
-        // Expresiones regulares para validaciones
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const telefonoRegex = /^\d{10}$/; // Teléfono válido con 10 dígitos
+        const telefonoRegex = /^\d{10}$/; 
 
-        // Validaciones
+       
         if (!nombre || !apellido || !email || !telefono) {
             Swal.fire({
                 icon: 'warning',
