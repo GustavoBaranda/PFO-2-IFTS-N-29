@@ -2,6 +2,8 @@ Descripción del Proyecto
 
 Este proyecto es un portafolio personal desarrollado como parte del curso en el IFTS 29. La página presenta mi experiencia, habilidades y proyectos destacados como desarrollador FrontEnd. Incluye secciones sobre mí, mis proyectos, habilidades, películas favoritas y un formulario de contacto. Para su desarrollo se ha utilizado HTML, CSS y JavaScript, además de librerías externas como FontAwesome, Google Fonts y SweetAlert2.
 
+GitHub Pages -- https://gustavobaranda.github.io/PFO-1-IFTS-N-29/
+
 Checklist - Práctica Formativa Obligatoria 1 
 • Estructura del Proyecto:
 [✔️] Archivo "index.html" ubicado en la raíz.
@@ -9,10 +11,10 @@ Checklist - Práctica Formativa Obligatoria 1
 [✔️] (Opcional) Carpeta "assets" para recursos gráficos.
 [✔️] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 • Repositorio y Publicación:
-[] Repositorio en GitHub creado.
-[] Proyecto subido al repositorio.
-[] Proyecto publicado utilizando GitHub Pages.
-[] En el "README.md" se indica la URL de GitHub Pages.
+[✔️] Repositorio en GitHub creado.
+[✔️] Proyecto subido al repositorio.
+[✔️] Proyecto publicado utilizando GitHub Pages.
+[✔️] En el "README.md" se indica la URL de GitHub Pages.
 • Uso de Google Fonts:
 [✔️] Enlace a Google Fonts incluido en la sección "head" del HTML.
 [✔️] La tipografía importada se aplica en el sitio.
