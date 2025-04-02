@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
@@ -16,8 +19,11 @@
     <header>
       <nav>
         <div class="logo">
-          <img src="assets/logo.png" alt="Logo de Mi Portafolio" />
+          <a href="/">
+            <img src="assets/logo.png" alt="Logo de Mi Portafolio" />
+          </a>
         </div>
+        <!-- Menú hamburguesa para versión móvil -->
         <div class="hamburger" id="hamburger">
           <div></div>
           <div></div>
@@ -34,10 +40,11 @@
     </header>
 
     <main class="container">
+      <!-- Botón flotante para volver arriba -->
       <button id="scrollToTop" class="scroll-to-top">
         <i class="fa-solid fa-arrow-up"></i>
       </button>
-      
+
       <section id="sobre-mi">
         <div class="card">
           <h2>Sobre Mí</h2>
@@ -138,7 +145,6 @@
               <a href="https://chetifabene.vercel.app/" class="btn">Ver más</a>
             </div>
           </div>
-          <!-- Puedes añadir más tarjetas según sea necesario -->
         </div>
       </section>
 
@@ -147,7 +153,8 @@
           <h2>Habilidades</h2>
           <div class="carrusel-wrapper">
             <div class="carrusel-contenedor">
-              <!-- Los elementos del carrusel se insertan dinamicamente -->
+              <!-- Los elementos del carrusel se insertan dinámicamente con JavaScript -->
+              <!--Este código implementa la función iniciarCarrusel() implementa un carrusel infinito de tecnologías, generando dinámicamente los elementos a partir de un array de lenguajes de programación y frameworks. Para lograr un desplazamiento continuo, duplica la lista de elementos y manipula el translateX del contenedor con transiciones CSS. Además, permite la navegación manual mediante botones y ejecuta automáticamente el desplazamiento cada 5 segundos, mejorando la interactividad y la experiencia del usuario.-->
             </div>
             <button id="prevBtn">&#10094;</button>
             <button id="nextBtn">&#10095;</button>
@@ -162,7 +169,8 @@
             </tr>
             <tr>
               <td>
-                HTML, CSS, Sass, Tailwind, JavaScript, TypeScript, ReactJS, NextJS
+                HTML, CSS, Sass, Tailwind, JavaScript, TypeScript, ReactJS,
+                NextJS
               </td>
               <td>Desarrollo Web Frontend</td>
               <td>React Native</td>
@@ -187,21 +195,24 @@
       <section id="peliculas">
         <h2>Películas Favoritas</h2>
         <div class="contenedor-peliculas">
-          <!-- Las tarjetas de películas se insertarán aquí -->
+          <!-- Las tarjetas de películas se insertan con JavaScript -->
+          <!--Este código implementa la función cargarPeliculas() para generar dinámicamente tarjetas de películas en el DOM cuando la página ha cargado. En lugar de escribir el contenido manualmente en HTML, se utiliza un array de objetos que facilita la actualización y mantenimiento de la lista de películas. Además, la automatización mejora la escalabilidad del proyecto y mantiene el código más organizado al separar la lógica de presentación del contenido. También se optimiza la carga al asegurarse de que el DOM esté listo antes de manipularlo, evitando errores y mejorando la experiencia del usuario.-->
         </div>
       </section>
       <section id="contacto">
         <div class="container-contacto">
-          <form action="https://formsubmit.co/your@email.com" method="POST" class="form-contacto">
+          <!-- el formulario se gestiona y valida con JavaScript -->
+          <!--Este código implementa la función handleContactForm() gestiona el envío del formulario de contacto, validando los datos antes de enviarlos a través de fetch(). Implementa comprobaciones estrictas para evitar campos vacíos, nombres y apellidos demasiado cortos, correos electrónicos con formato incorrecto y números de teléfono que no cumplen con el formato de 10 dígitos. Si la validación es exitosa, envía los datos a FormSubmit y muestra alertas con SweetAlert para confirmar el envío o informar errores, mejorando la experiencia del usuario y asegurando la integridad de los datos ingresados.-->
+          <form action="" method="POST" class="form-contacto">
             <h2>Contacto</h2>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required />
+            <input type="text" id="nombre" name="nombre" />
 
             <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required />
+            <input type="text" id="apellido" name="apellido" />
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="email" />
 
             <label for="telefono">Teléfono:</label>
             <input type="tel" id="telefono" name="telefono" />

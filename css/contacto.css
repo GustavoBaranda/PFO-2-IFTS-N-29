@@ -41,6 +41,13 @@
   border-radius: 6px;
 }
 
+#contacto .container-contacto .form-contacto input:focus {
+  border-color: #7d6554; 
+  box-shadow: 0 0 5px rgba(125, 101, 84, 0.7); 
+  outline: none; 
+  background-color: #f8f4e1; 
+}
+
 #contacto .container-contacto .form-contacto button {
   display: block;
   width: 100%;
