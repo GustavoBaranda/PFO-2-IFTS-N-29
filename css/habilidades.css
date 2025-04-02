@@ -143,6 +143,13 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  #habilidades .container-habilidades table tr th,
+  #habilidades .container-habilidades table tr td {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 490px) {
   #habilidades .container-habilidades {
     padding: 10px;
@@ -151,10 +158,5 @@
   #habilidades .container-habilidades .carrusel-wrapper #prevBtn,
   #habilidades .container-habilidades .carrusel-wrapper #nextBtn {
     top: 300px;
-  }
-
-  #habilidades .container-habilidades table tr th,
-  #habilidades .container-habilidades table tr td {
-    font-size: 14px;
   }
 }
