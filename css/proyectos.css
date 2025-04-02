@@ -81,3 +81,11 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 870px) {
+  #proyectos .contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,16 +1,14 @@
-
 #habilidades {
-    width: 100%;
-    max-width: 1250px;
-    background: #fdf6e3;
+  width: 100%;
+  max-width: 1250px;
+  background: #fdf6e3;
 }
 
 #habilidades .container-habilidades {
   padding: 20px 30px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #0000001a;
   border-radius: 16px;
-
   max-width: 100%;
   margin: auto;
   position: relative;
@@ -18,9 +16,9 @@
 }
 
 #habilidades .container-habilidades h2 {
-    font-size: 2rem;
-    color: #4a403a;
-    margin: 0 0 84px;
+  font-size: 2rem;
+  color: #4a403a;
+  margin: 0 0 84px;
 }
 
 #habilidades .container-habilidades .carrusel-wrapper {
@@ -36,23 +34,37 @@
   will-change: transform;
 }
 
-#habilidades .container-habilidades .carrusel-wrapper .carrusel-contenedor .carrusel-item {
+#habilidades
+  .container-habilidades
+  .carrusel-wrapper
+  .carrusel-contenedor
+  .carrusel-item {
   min-width: 100px;
   width: 100%;
   margin: 0 10px;
   text-align: center;
 }
 
-#habilidades .container-habilidades .carrusel-wrapper .carrusel-contenedor .carrusel-item img {
+#habilidades
+  .container-habilidades
+  .carrusel-wrapper
+  .carrusel-contenedor
+  .carrusel-item
+  img {
   width: 80px;
   height: 80px;
   object-fit: contain;
 }
 
-#habilidades .container-habilidades .carrusel-wrapper .carrusel-contenedor .carrusel-item p {
+#habilidades
+  .container-habilidades
+  .carrusel-wrapper
+  .carrusel-contenedor
+  .carrusel-item
+  p {
   margin-top: 10px;
   font-size: 14px;
-  color: #4a403a; 
+  color: #4a403a;
 }
 
 #habilidades .container-habilidades .carrusel-wrapper #prevBtn,
@@ -85,13 +97,13 @@
 }
 
 #habilidades .container-habilidades h3 {
-    font-size: 1.5rem;
-    padding: 50px 0;
+  font-size: 1.5rem;
+  padding: 50px 0;
 }
 
 #habilidades .container-habilidades table {
-  width: 80%;
-  margin: 20px auto;
+  width: 100%;
+  margin: 20px 0;
   border-collapse: collapse;
   background: #fdf6e3;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -105,10 +117,44 @@
   padding: 12px;
   text-align: center;
 }
+
 #habilidades .container-habilidades table tr th {
   background-color: #9c836b;
   color: white;
 }
+
 #habilidades .container-habilidades table tr:nth-child(even) {
   background-color: #f8f4e1;
+}
+
+@media screen and (max-width: 650px) {
+  #habilidades .container-habilidades {
+    padding: 20px;
+  }
+
+  #habilidades .container-habilidades .carrusel-wrapper #prevBtn,
+  #habilidades .container-habilidades .carrusel-wrapper #nextBtn {
+    top: 375px;
+  }
+
+  #habilidades .container-habilidades table tr th,
+  #habilidades .container-habilidades table tr td {
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #habilidades .container-habilidades {
+    padding: 10px;
+  }
+
+  #habilidades .container-habilidades .carrusel-wrapper #prevBtn,
+  #habilidades .container-habilidades .carrusel-wrapper #nextBtn {
+    top: 300px;
+  }
+
+  #habilidades .container-habilidades table tr th,
+  #habilidades .container-habilidades table tr td {
+    font-size: 14px;
+  }
 }

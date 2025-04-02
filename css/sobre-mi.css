@@ -35,3 +35,8 @@
     font-size: 1rem;
   }
   
+  @media (max-width: 1064px) {
+    #sobre-mi .card .card-content {
+      display:block
+    }   
+  }

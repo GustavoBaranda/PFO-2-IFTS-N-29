@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <header>
@@ -161,21 +162,20 @@
             </tr>
             <tr>
               <td>
-                HTML - CSS - Sass - Tailwind - JavaScript - TypeScript - ReactJS
-                - NextJS
+                HTML, CSS, Sass, Tailwind, JavaScript, TypeScript, ReactJS, NextJS
               </td>
               <td>Desarrollo Web Frontend</td>
               <td>React Native</td>
               <td>Videojuegos - Ilustración</td>
             </tr>
             <tr>
-              <td>NodeJS - Python - Django - PHP - CSharp</td>
+              <td>NodeJS, Python, Django, PHP, CSharp</td>
               <td>Desarrollo Backend</td>
-              <td>Go - Rust</td>
-              <td>Lectura - Escritura</td>
+              <td>Go, Rust</td>
+              <td>Lectura, Escritura</td>
             </tr>
             <tr>
-              <td>Firebase - MySQL</td>
+              <td>Firebase, MySQL</td>
               <td>Bases de Datos</td>
               <td>GraphQL</td>
               <td>Senderismo</td>
@@ -192,7 +192,7 @@
       </section>
       <section id="contacto">
         <div class="container-contacto">
-          <form class="form-contacto">
+          <form action="https://formsubmit.co/your@email.com" method="POST" class="form-contacto">
             <h2>Contacto</h2>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required />
@@ -217,14 +217,6 @@
           </div>
         </div>
       </section>
-      <script>
-        document
-          .getElementById("contact-form")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
-            alert("Formulario enviado con éxito");
-          });
-      </script>
     </main>
 
     <footer>

@@ -1,4 +1,3 @@
-
 #peliculas h2 {
   font-size: 2rem;
   color: #4a403a;
@@ -16,7 +15,7 @@
 }
 
 #peliculas .contenedor-peliculas .tarjeta {
-  background: #fdf6e3; /* Color inspirado en Studio Ghibli */
+  background: #fdf6e3;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -45,7 +44,7 @@
 }
 
 #peliculas .contenedor-proyectos .contenido-tarjeta p {
-  color: #6d5c4d; /* Color inspirado en Studio Ghibli */
+  color: #6d5c4d;
   font-size: 0.9rem;
   text-align: justify;
   height: 100%;
@@ -63,4 +62,19 @@
 
 #peliculas .contenedor-peliculas .tarjeta .contenido-tarjeta .btn:hover {
   background-color: #7d6554; 
+}
+
+@media screen and (max-width: 1290px) {
+  #peliculas .contenedor-peliculas {
+    gap: 20px 50px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 870px) {
+  #peliculas .contenedor-peliculas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
