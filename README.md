@@ -1,6 +1,6 @@
 # 📌 Descripción del Proyecto
 
-Este proyecto es un **portafolio personal** desarrollado como parte del curso en el IFTS 29. La página presenta mi experiencia, habilidades y proyectos destacados como desarrollador FrontEnd. Incluye:
+Este proyecto es un **portafolio personal** desarrollado como parte del curso de Front End en el IFTS 29. La página presenta mi experiencia, habilidades y proyectos destacados como desarrollador FrontEnd. Incluye:
 
 ✅ Sobre mí  
 ✅ Mis proyectos  
@@ -61,7 +61,7 @@ Este proyecto es un **portafolio personal** desarrollado como parte del curso en
 - [✔️] **Animaciones y transiciones** implementadas.
 
 > ✨ *Animaciones utilizadas:* `hover`, `transform`, `translate`, `transition`, `scale`, `rotate`.  
-> **Motivo:** Mejora la interactividad. Por ejemplo, **scale en tarjetas** de proyectos resalta cada una al pasar el cursor, **rotate en íconos** añade dinamismo, y **transition** suaviza los cambios.
+> **Motivo:** Mejora la interactividad. Por ejemplo, **scale en botones** de proyectos resalta cada una al pasar el cursor, **rotate en íconos** añade dinamismo, y **transition** suaviza los cambios.
 
 ### 🏆 **Consideraciones Adicionales**
 - [✔️] **Diseño responsivo**, adaptable a distintos dispositivos.
