@@ -16,7 +16,7 @@ Este proyecto es un **portafolio personal** desarrollado como parte del curso de
 
 ---
 
-## ✅ Checklist - Práctica Formativa Obligatoria 1
+## ✅ Checklist - Práctica Formativa Obligatoria 
 
 ### 📂 **Estructura del Proyecto**
 - [✔️] Archivo `index.html` en la raíz.
@@ -96,19 +96,23 @@ Este proyecto es un **portafolio personal** desarrollado como parte del curso de
 ### 📝 **Mejoras o Cambios en el Diseño y Código**
 
 1. **Formulario Adaptado a Dispositivos Móviles**
+
      Se mejoró el diseño del formulario para dispositivos móviles ajustando el espacio de los inputs mediante el uso de media queries. Esto garantiza que los campos de entrada se adapten de manera fluida y eficiente según el tamaño de la pantalla, mejorando la usabilidad y estética en pantallas más pequeñas.
 
 ![Antes](./assets/antes.png) ![Despues](./assets/despues.png)
 
 2. **Efecto Hover en Navbar**
+
      Se implementó un efecto hover en los elementos del navbar para mejorar la interacción del usuario. Al pasar el cursor sobre los enlaces de navegación, se añade un cambio visual que destaca el elemento, proporcionando una experiencia de navegación más dinámica y atractiva.
 
 3. **Ajuste de Media Queries**
+
      Se realizaron ajustes adicionales utilizando media queries para optimizar la visualización del sitio en diferentes tamaños de pantalla. Estos ajustes permiten que la estructura, el tamaño de los elementos y el diseño general del sitio se adapten de forma efectiva a dispositivos con pantallas grandes, medianas y pequeñas, asegurando una experiencia de usuario consistente en todo tipo de dispositivos.
 
 4. **Modularización de Archivos CSS**
+
      Se modularizó el archivo CSS dividiéndolo en varios archivos más pequeños, cada uno responsable de diferentes partes del diseño. Estos archivos se importan en el archivo principal style.css, lo que mejora la organización del código, facilita el mantenimiento y permite aplicar cambios de manera más específica y controlada.
-     
+
 ---
 
 💡 **Conclusión:**  
