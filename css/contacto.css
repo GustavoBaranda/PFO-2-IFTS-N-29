@@ -76,6 +76,12 @@
 }
 
 @media screen and (max-width: 800px) {
+  #contacto .container-contacto .form-contacto {
+    width: 80%;
+  }
+  #contacto .container-contacto .form-contacto h2 {
+    font-size: 2rem;
+  }
   #contacto .container-contacto {
     flex-direction: column;
     justify-content: center;
@@ -91,3 +97,6 @@
   }
   
 }
+
+
+

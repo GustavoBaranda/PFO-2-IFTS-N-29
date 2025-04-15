@@ -73,3 +73,7 @@ export function iniciarCarrusel() {
         setInterval(nextSlide, 5000);
     });
 }
+
+
+
+
