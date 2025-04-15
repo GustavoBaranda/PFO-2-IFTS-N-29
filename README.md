@@ -12,7 +12,7 @@ Este proyecto es un **portafolio personal** desarrollado como parte del curso de
 - **HTML, CSS y JavaScript**
 - Librerías externas: *FontAwesome, Google Fonts y SweetAlert2*
 
-🔗 **GitHub Pages:** [Ver Proyecto](https://gustavobaranda.github.io/PFO-1-IFTS-N-29/)
+🔗 **GitHub Pages:** [Ver Proyecto](https://gustavobaranda.github.io/PFO-2-IFTS-N-29/)
 
 ---
 
